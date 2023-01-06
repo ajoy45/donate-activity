@@ -7,12 +7,18 @@ h2,
 h3,
 h4,
 h5,
-h6,button {
+h6,
+button {
     font-family: Inter;
 }
 
 p {
     font-family: Poppins;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .btn {
@@ -27,12 +33,12 @@ p {
 
 /* header styles */
 header {
-    background-image: url('../images/donation12.png'),linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-image: url('../images/donation12.png'), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-repeat: no-repeat;
     background-position: cover;
     background-blend-mode: overlay;
-    
-  
+
+
 }
 
 .header-content {
@@ -53,4 +59,58 @@ header {
     font-size: 18px;
     color: white;
     margin-bottom: 30px;
+}
+
+/* donate tody section styles */
+.donate {
+    text-align: center;
+}
+
+.donate-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.donate-description {
+    font-size: 18px;
+    color: #707070;
+    margin-left: 375px;
+    margin-right: 375px;
+    margin-bottom: 20px;
+}
+
+.donate-money {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.single-item {
+    
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding:50px 50px ;
+}
+.single-item:hover{
+    border: 1px solid  #FF5959;
+    background: #FFEEEE;
+    color: #FF5959;
+    cursor: pointer;
+}
+.amount{
+    text-align: center;
+    color:  #B3B3B3;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 9.5px;
+}
+hr{
+    margin-right: 142px;
+    margin-left: 142px;
+    margin-bottom: 30px;
+   
 }
