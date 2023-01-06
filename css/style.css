@@ -90,27 +90,100 @@ header {
 }
 
 .single-item {
-    
+
     background: #FAFAFA;
     border-radius: 5px;
-    padding:50px 50px ;
+    padding: 50px 50px;
 }
-.single-item:hover{
-    border: 1px solid  #FF5959;
+
+.single-item:hover {
+    border: 1px solid #FF5959;
     background: #FFEEEE;
     color: #FF5959;
     cursor: pointer;
 }
-.amount{
+
+.amount {
     text-align: center;
-    color:  #B3B3B3;
+    color: #B3B3B3;
     font-size: 18px;
     margin-top: 60px;
     margin-bottom: 9.5px;
 }
-hr{
+
+hr {
     margin-right: 142px;
     margin-left: 142px;
     margin-bottom: 30px;
-   
+
+}
+
+/* donate plan section styles */
+
+.donate-plans {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 130px;
+}
+
+.plan1 {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 60px 23px;
+
+}
+.plan1 img{
+    margin-bottom: 23px;
+}
+
+.plan1 h2{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+
+.plan1 p{
+    margin-bottom: 23px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.plan2{
+    background-color: #ffeeee;
+    border-radius: 5px;
+    padding: 60px 23px;
+}
+.plan2 img{
+    margin-bottom: 23px;
+}
+.plan2 h2{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+.plan2 p{
+    margin-bottom: 23px;
+    line-height: 24px;
+    color: #707070;
+}
+.plan3{
+    background-color: #fff4d6;
+    border-radius: 5px;
+    padding: 60px 23px;
+}
+.plan3 img{
+    margin-bottom: 23px;
+}
+.plan3 h2{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+.plan3 p{
+    margin-bottom: 23px;
+    line-height: 24px;
+    color: #707070;
 }
