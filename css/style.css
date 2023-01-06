@@ -132,58 +132,95 @@ hr {
     padding: 60px 23px;
 
 }
-.plan1 img{
+
+.plan1 img {
     margin-bottom: 23px;
 }
 
-.plan1 h2{
+.plan1 h2 {
     margin-bottom: 16px;
     font-weight: 600;
     font-size: 24px;
     color: #121212;
 }
 
-.plan1 p{
+.plan1 p {
     margin-bottom: 23px;
     line-height: 24px;
     color: #707070;
 }
 
-.plan2{
+.plan2 {
     background-color: #ffeeee;
     border-radius: 5px;
     padding: 60px 23px;
 }
-.plan2 img{
+
+.plan2 img {
     margin-bottom: 23px;
 }
-.plan2 h2{
+
+.plan2 h2 {
     margin-bottom: 16px;
     font-weight: 600;
     font-size: 24px;
     color: #121212;
 }
-.plan2 p{
+
+.plan2 p {
     margin-bottom: 23px;
     line-height: 24px;
     color: #707070;
 }
-.plan3{
+
+.plan3 {
     background-color: #fff4d6;
     border-radius: 5px;
     padding: 60px 23px;
 }
-.plan3 img{
+
+.plan3 img {
     margin-bottom: 23px;
 }
-.plan3 h2{
+
+.plan3 h2 {
     margin-bottom: 16px;
     font-weight: 600;
     font-size: 24px;
     color: #121212;
 }
-.plan3 p{
+
+.plan3 p {
     margin-bottom: 23px;
     line-height: 24px;
     color: #707070;
+}
+
+/* lives section styles */
+.lives-container {
+    display: flex;
+    align-items: center;
+    gap: 94px;
+    margin-bottom: 100px;
+}
+
+.lives-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.lives-info {
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin-bottom: 30px;
+
+}
+
+.lives-img img {
+    width: 456px;
+    height: 477px;
 }
