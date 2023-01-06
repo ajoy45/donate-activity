@@ -224,3 +224,28 @@ hr {
     width: 456px;
     height: 477px;
 }
+/* update section styles */
+.form-container{
+    background-color: #fff4d6;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+form{
+    padding: 76px 188px;
+}
+input[type='email']{
+    margin-right: -5px;
+}
+input[type='email']:focus{
+  outline: none;
+}
+input[type='button']{
+    background-color: #ff5959;
+    border-radius: 0 3px 3px 0;
+}
+input[type='email'],input[type='button']{
+    border: none;
+    padding: 14px 17px;
+}
