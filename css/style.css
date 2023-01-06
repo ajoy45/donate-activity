@@ -1,3 +1,56 @@
-h1{
-    color: antiquewhite;
+* {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,button {
+    font-family: Inter;
+}
+
+p {
+    font-family: Poppins;
+}
+
+.btn {
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    padding: 16px 20.5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* header styles */
+header {
+    background-image: url('../images/donation12.png'),linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-blend-mode: overlay;
+    
+  
+}
+
+.header-content {
+    text-align: center;
+    margin: 0x 307px;
+}
+
+.header-title {
+    margin: 0 307px;
+    padding-top: 174px;
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header-description {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
 }
